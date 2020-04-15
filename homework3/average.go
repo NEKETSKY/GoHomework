@@ -7,7 +7,7 @@ func main() {
 	fmt.Println(average(input))
 }
 
-//func returns an average value of array
+//average returns an average value of array
 func average(a [6]int) float64 {
 	var sum float64
 	for i := range a {

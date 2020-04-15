@@ -15,6 +15,7 @@ func main() {
 	fmt.Println(printSorted(input2))
 }
 
+//printSorted print map values sorted in order of increasing keys
 func printSorted(a map[int]string) []string {
 	key := make([]int, 0, len(a))
 	var res []string

@@ -7,7 +7,7 @@ func main() {
 	fmt.Println(reverse(input))
 }
 
-//func which returns the copy of the slice in reverse order
+//reverse returns the copy of the slice in reverse order
 func reverse(a []int64) []int64 {
 	var rvrs []int64
 	for i := range a {

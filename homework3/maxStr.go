@@ -12,7 +12,7 @@ func main() {
 	fmt.Println(max(input2))
 }
 
-//returns the longest word (first if there are more than one)
+//max returns the longest word (first if there are more than one)
 func max(a []string) string {
 	var longest string
 	for i := range a {
